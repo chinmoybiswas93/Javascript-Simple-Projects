@@ -1,12 +1,11 @@
 const withdrawInput = document.getElementById("withdraw");
-
 const depositBtn = document.getElementById("deposit-btn");
 const withdrawBtn = document.getElementById("withdraw-btn");
 
 // -------------deposit function -------------------------
 
 depositBtn.addEventListener("click", function () {
-  const depositInput = document.getElementById("deposit");
+  const depositInput = document.getElementById("deposit-amount");
   const deposit = parseInt(depositInput.value);
   if (deposit > 0) {
     const currentDepositAmount = parseInt(
@@ -25,6 +24,7 @@ depositBtn.addEventListener("click", function () {
   } else {
     alert("Enter Amount in Number more than 0");
   }
+  depositInput.value = ''; 
 });
 
 // -------------withdraw function -------------------------
