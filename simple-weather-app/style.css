@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.weather-app-body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://github.com/webdev-chinmoy-biswas/simple-weather-app/blob/main/background-image.jpg);
+    background-size: cover;
+    z-index: 1;
+}
+
+#overlay {
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    margin: auto;
+}
+
+.app-title {
+    font-size: 2rem;
+}
+
+.notification {
+    display: none;
+}
+
+.weather-icon img{
+    width: 100px;
+    height: 100px;
+}
+
+.weather-text {
+    font-size: 4rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.weather-status {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.weather-location {
+    font-size: 1.2rem;
+}
