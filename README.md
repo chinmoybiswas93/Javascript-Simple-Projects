@@ -23,7 +23,10 @@ https://webdev-chinmoy-biswas.github.io/Javascript-Simple-Projects/simple-cart-c
 https://webdev-chinmoy-biswas.github.io/Javascript-Simple-Projects/simple-listing-app/
 
 9# Simple weather app
-https://webdev-chinmoy-biswas.github.io/Javascript-Simple-Projects/simple-weather-app/
+https://webdev-chinmoy-biswas.github.io/Javascript-Simple-Projects/simple-weather-app/\
+
+9# Simple division wise city select
+https://webdev-chinmoy-biswas.github.io/Javascript-Simple-Projects/division-wise-city/
 
 
 
