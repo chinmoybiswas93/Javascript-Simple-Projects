@@ -24,6 +24,10 @@ h1 {
   color: var(--orange);
   font-size: 76px;
 }
+p,li {
+    font-size: 16px;
+    color:#ffffffd6;
+}
 
 .container {
     max-width: 1300px;
@@ -110,11 +114,11 @@ h1 {
     font-size: 16px;
     margin: 10px 0;
 }
-.player-select-button {
+.btn-div {
     margin: 20px 20px;
 }
 
-.player-select-button button {
+.btn {
     background-color: var(--blue);
     width: 100%;
     padding: 10px;
@@ -122,4 +126,31 @@ h1 {
     color: white;
 }
 
+/* -------------------costing--------------- */
+.costing {
+    padding-left: 30px;
+}
+
+.selected-players,
+.budget {
+    background-color: var(--deep-black);
+    padding: 30px 20px;
+    margin-bottom: 30px;
+}
+
+.selected-player-title h4,
+.budget-title h4 {
+    color: var(--white);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.selected-players-list {
+    margin-left: 30px;
+}
+
+.selected-players-list li {
+    margin-bottom: 13px;
+}
 
