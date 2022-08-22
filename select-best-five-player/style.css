@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Manrope:wght@400;500;600;700&display=swap");
+
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-black: #151515;
+  --deep-black: #0d0d0d;
+  --white: #ffffff;
+  --blue: #015196;
+  --disabled: #b3b3b3;
+  --orange: #ff5e19;
+}
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+h1 {
+  font-family: "Berkshire Swash", cursive;
+  color: var(--orange);
+  font-size: 76px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.hero-grid-container {
+  display: grid;
+  grid-template-columns: 3fr 6fr 3fr;
+  justify-content: space-between;
+}
+
+.bg-dark {
+    background-color: var(--deep-black);
+}
+
+.hero-section {
+    height: 480px;
+}
+.second-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.third-col,
+.first-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.first-col {
+    align-items: flex-start;
+}
+.third-col {
+    align-items: flex-end;
+}
+
+.text-div {
+    max-width: 740px;
+}
+
+.second-col p {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--white);
+    margin-top: 2rem;
+    line-height: 1.6em;
+}
+
+/* ---------------main-section-------------------- */
+.main {
+    background-color: var(--primary-black);
+    padding: 100px 0px;
+}
+.main-grid-container {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+}
+
+/* ----------------------players------------------- */
+.players-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.player-card {
+    background-color: var(--deep-black);  
+    border: 1px solid rgba(255, 255, 255, 0.088);
+    text-align: center; 
+}
+.player-image img {
+    width: 100%;
+}
+
+.player-name {
+    font-size: 24px;
+    color: var(--white);
+    margin-top: 15px;
+}
+
+.player-stats {
+    color: aqua;
+    font-size: 16px;
+    margin: 10px 0;
+}
+.player-select-button {
+    margin: 20px 20px;
+}
+
+.player-select-button button {
+    background-color: var(--blue);
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+
