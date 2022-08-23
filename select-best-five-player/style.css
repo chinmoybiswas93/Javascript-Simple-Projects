@@ -14,6 +14,7 @@
   --blue: #015196;
   --disabled: #b3b3b3;
   --orange: #ff5e19;
+  --text-color: #ffffffd6;
 }
 body {
   font-family: "Manrope", sans-serif;
@@ -22,11 +23,25 @@ body {
 h1 {
   font-family: "Berkshire Swash", cursive;
   color: var(--orange);
-  font-size: 76px;
+  font-size: 66px;
 }
 p,li {
     font-size: 16px;
-    color:#ffffffd6;
+    color:var(--text-color);
+}
+
+input {
+    background-color: var(--deep-black);
+    color: var(--text-color);
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+input:focus-visible {
+    border: 1px solid white;
+    outline: none;
 }
 
 .container {
@@ -44,6 +59,28 @@ p,li {
     background-color: var(--deep-black);
 }
 
+button:hover {
+    background-color: var(--orange);
+    cursor: pointer;
+} 
+
+button[disabled] {
+    background-color: var(--disabled);
+}
+ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+  }
+  ol li {
+    counter-increment: my-awesome-counter;
+  }
+  ol li::before {
+    content: counter(my-awesome-counter) ".";
+    margin-right: 15px;
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+/* --------------------hero section--------------- */
 .hero-section {
     height: 480px;
 }
@@ -110,7 +147,7 @@ p,li {
 }
 
 .player-stats {
-    color: aqua;
+    color: var(--text-color);
     font-size: 16px;
     margin: 10px 0;
 }
@@ -154,3 +191,39 @@ p,li {
     margin-bottom: 13px;
 }
 
+/* ----------inputs--------- */
+.per-player-input,
+.player-expense,
+.manager,
+.coach,
+.total-expense {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.width-50 {
+    width: 50%;
+}
+.calculate-button,
+.calculate-total-button {
+    margin-bottom: 20px;
+}
+
+.total-cost {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--orange);
+}
+
+/* --------------footer------------------ */
+.footer {
+    padding: 80px;
+    background-color: var(--primary-black);
+    border-top: 1px solid rgba(255, 255, 255, 0.219);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-text {
+    color: var(--text-color);
+}
