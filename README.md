@@ -1,32 +1,32 @@
 1# Analog Clock Using Js
-https://webdev-chinmoy-biswas.github.io/Javascript-Simple-Projects/analog-clock-js/
+https://simple-js-cb.netlify.app/analog-clock-js/
 
 2# Simple Piano
-https://webdev-chinmoy-biswas.github.io/Javascript-Simple-Projects/js-piano/
+https://simple-js-cb.netlify.app/js-piano/
 
 3# Random pin code generator and match
-https://webdev-chinmoy-biswas.github.io/Javascript-Simple-Projects/random-pin-code-generator-and-matcher/
+https://simple-js-cb.netlify.app/random-pin-code-generator-and-matcher/
 
 4# Random quote generator
-https://webdev-chinmoy-biswas.github.io/Javascript-Simple-Projects/random-quote-generator/
+https://simple-js-cb.netlify.app/random-quote-generator/
 
 5# Simple bank with functions
-https://webdev-chinmoy-biswas.github.io/Javascript-Simple-Projects/simple-bank-functional/
+https://simple-js-cb.netlify.app/simple-bank-functional/
 
 6# simple bank without function
-https://webdev-chinmoy-biswas.github.io/Javascript-Simple-Projects/simple-bank/
+https://simple-js-cb.netlify.app/simple-bank/
 
 7# Simple cart calculation
-https://webdev-chinmoy-biswas.github.io/Javascript-Simple-Projects/simple-cart-calculation/
+https://simple-js-cb.netlify.app/simple-cart-calculation/
 
 8# Simple listing app
-https://webdev-chinmoy-biswas.github.io/Javascript-Simple-Projects/simple-listing-app/
+https://simple-js-cb.netlify.app/simple-listing-app/
 
 9# Simple weather app
-https://webdev-chinmoy-biswas.github.io/Javascript-Simple-Projects/simple-weather-app/\
+https://simple-js-cb.netlify.app/simple-weather-app/
 
 9# Simple division wise city select
-https://webdev-chinmoy-biswas.github.io/Javascript-Simple-Projects/division-wise-city/
+https://simple-js-cb.netlify.app/division-wise-city/
 
 
 
